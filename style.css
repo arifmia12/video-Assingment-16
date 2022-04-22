@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header-section{
+    background-color: rgba(70, 70, 207, 0.735);
+}
+.header-section img{
+    width: 150px;
+    /* height: auto; */
+}
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: -5px;
+    text-align: end;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 51px;
+    text-decoration: none;
+    border-right: 1px solid rgb(255, 255, 255);
+    margin-left: -4px;
+}
+.primary-menu ul li:hover{}
+/* end */
+.banner-section{
+    background-image: url("./image/banner.jpg");
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-section{}
+.banner-section h1{
+    color: white;
+    background-color: rgb(74, 126, 172);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner-section h2{
+    color: white;
+    background-color: #7e7969;
+    width: 414px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+/* end */
+.about-section{
+    background-color: #1514131a;
+  
+}
+.about-section h1{}
+.about-section p{
+    width: 500px;
+    margin: auto;
+}
+
+.service{
+    background-color: #bebebe;
+}
+
+.service i{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    font-size: 30px;
+    margin: auto;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 0px;
+    line-height: 45px;
+}
+
+.service h2 {
+    padding: 10px 0px;
+}
+
+.product-section{
+    /* background-color: ; */
+}
+img{
+    max-width: 100%;
+}
+
+.right-section{}
+.right-section ul{
+    list-style-type: none;
+   
+}
+.right-section ul li{
+    background-color: #dad7d7;
+    margin-top: 10px;
+    padding: 10px 4px;
+
+}
+.footer{
+    background-color: black;
+}
+.footer ul{
+    list-style-type: none;
+    margin-bottom: auto;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0px 17px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
+iframe {
+    max-width: 100%;
+}
